@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330">
+<rect width="760" height="330" fill="white"/>
+<text x="380" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">FREERTOS PROJECT LAYERS</text>
+<rect x="120" y="55" width="520" height="42" fill="#8ecae6" stroke="#333"/><text x="380" y="82" text-anchor="middle" font-family="Arial" font-size="15">APPLICATION TASKS</text>
+<rect x="120" y="105" width="520" height="42" fill="#ffb703" stroke="#333"/><text x="380" y="132" text-anchor="middle" font-family="Arial" font-size="15">CMSIS-RTOS V2 OR NATIVE API</text>
+<rect x="120" y="155" width="520" height="42" fill="#90be6d" stroke="#333"/><text x="380" y="182" text-anchor="middle" font-family="Arial" font-size="15">FREERTOS KERNEL</text>
+<rect x="120" y="205" width="250" height="42" fill="#f28482" stroke="#333"/><text x="245" y="232" text-anchor="middle" font-family="Arial" font-size="14">PORTABLE LAYER</text>
+<rect x="390" y="205" width="250" height="42" fill="#f6bd60" stroke="#333"/><text x="515" y="232" text-anchor="middle" font-family="Arial" font-size="14">HEAP AND CONFIG</text>
+<rect x="120" y="255" width="520" height="42" fill="#d9d9d9" stroke="#333"/><text x="380" y="282" text-anchor="middle" font-family="Arial" font-size="15">STM32 HAL AND HARDWARE</text>
+</svg>

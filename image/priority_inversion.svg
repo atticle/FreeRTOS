@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="330" viewBox="0 0 820 330">
+<rect width="820" height="330" fill="white"/>
+<text x="410" y="25" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">PRIORITY INVERSION</text>
+<text x="55" y="65" font-family="Arial" font-size="13">LOW</text><text x="55" y="135" font-family="Arial" font-size="13">MEDIUM</text><text x="55" y="205" font-family="Arial" font-size="13">HIGH</text>
+<line x1="100" y1="70" x2="770" y2="70" stroke="#555"/><line x1="100" y1="140" x2="770" y2="140" stroke="#555"/><line x1="100" y1="210" x2="770" y2="210" stroke="#555"/>
+<rect x="120" y="48" width="160" height="30" fill="#8ecae6"/><text x="200" y="68" text-anchor="middle" font-family="Arial" font-size="12">LOCKED RESOURCE</text>
+<rect x="280" y="118" width="220" height="30" fill="#ffb703"/><text x="390" y="138" text-anchor="middle" font-family="Arial" font-size="12">RUNS AND DELAYS RELEASE</text>
+<rect x="280" y="188" width="110" height="30" fill="#f28482"/><text x="335" y="208" text-anchor="middle" font-family="Arial" font-size="12">WAITS</text>
+<path d="M280 63 L390 63" stroke="#333" stroke-width="2"/><path d="M390 63 L390 203" stroke="#333" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="110" y="280" font-family="Arial" font-size="13">Priority inheritance temporarily raises LOW to release the resource sooner.</text>
+</svg>

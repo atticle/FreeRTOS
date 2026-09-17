@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300">
+<rect width="820" height="300" fill="white"/>
+<text x="410" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">DEFERRED INTERRUPT PROCESSING</text>
+<rect x="45" y="105" width="180" height="65" rx="8" fill="#f28482" stroke="#333"/><text x="135" y="132" text-anchor="middle" font-family="Arial" font-size="15">ISR</text><text x="135" y="153" text-anchor="middle" font-family="Arial" font-size="12">capture and signal</text>
+<rect x="320" y="90" width="180" height="95" rx="8" fill="#ffb703" stroke="#333"/><text x="410" y="122" text-anchor="middle" font-family="Arial" font-size="15">RTOS OBJECT</text><text x="410" y="145" text-anchor="middle" font-family="Arial" font-size="12">queue or semaphore</text><text x="410" y="165" text-anchor="middle" font-family="Arial" font-size="12">FromISR API</text>
+<rect x="595" y="105" width="180" height="65" rx="8" fill="#90be6d" stroke="#333"/><text x="685" y="132" text-anchor="middle" font-family="Arial" font-size="15">TASK</text><text x="685" y="153" text-anchor="middle" font-family="Arial" font-size="12">process and control</text>
+<path d="M225 137 L320 137" stroke="#333" stroke-width="2" marker-end="url(#a)"/><path d="M500 137 L595 137" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="272" y="125" text-anchor="middle" font-family="Arial" font-size="12">signal</text><text x="548" y="125" text-anchor="middle" font-family="Arial" font-size="12">wake</text>
+<text x="410" y="245" text-anchor="middle" font-family="Arial" font-size="13">Keep the ISR short. Move blocking and long work to the task.</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300">
+<rect width="820" height="300" fill="white"/>
+<text x="205" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">SUPERLOOP</text>
+<text x="615" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">RTOS</text>
+<line x1="410" y1="45" x2="410" y2="280" stroke="#999" stroke-width="2"/>
+<line x1="35" y1="85" x2="375" y2="85" stroke="#555"/>
+<text x="35" y="72" font-family="Arial" font-size="13">CPU time</text>
+<rect x="45" y="100" width="78" height="34" fill="#8ecae6"/><text x="84" y="122" text-anchor="middle" font-family="Arial" font-size="12">INPUT</text>
+<rect x="123" y="100" width="90" height="34" fill="#ffb703"/><text x="168" y="122" text-anchor="middle" font-family="Arial" font-size="12">CONTROL</text>
+<rect x="213" y="100" width="76" height="34" fill="#90be6d"/><text x="251" y="122" text-anchor="middle" font-family="Arial" font-size="12">OUTPUT</text>
+<rect x="289" y="100" width="90" height="34" fill="#f28482"/><text x="334" y="122" text-anchor="middle" font-family="Arial" font-size="12">COMM</text>
+<text x="205" y="166" text-anchor="middle" font-family="Arial" font-size="13">One function blocks the next</text>
+<line x1="445" y1="85" x2="785" y2="85" stroke="#555"/>
+<text x="445" y="72" font-family="Arial" font-size="13">CPU time</text>
+<rect x="455" y="100" width="58" height="34" fill="#8ecae6"/><text x="484" y="122" text-anchor="middle" font-family="Arial" font-size="11">INPUT</text>
+<rect x="513" y="100" width="52" height="34" fill="white" stroke="#777"/><text x="539" y="122" text-anchor="middle" font-family="Arial" font-size="11">WAIT</text>
+<rect x="565" y="100" width="68" height="34" fill="#ffb703"/><text x="599" y="122" text-anchor="middle" font-family="Arial" font-size="11">CONTROL</text>
+<rect x="633" y="100" width="52" height="34" fill="white" stroke="#777"/><text x="659" y="122" text-anchor="middle" font-family="Arial" font-size="11">WAIT</text>
+<rect x="685" y="100" width="58" height="34" fill="#90be6d"/><text x="714" y="122" text-anchor="middle" font-family="Arial" font-size="11">OUTPUT</text>
+<rect x="743" y="100" width="42" height="34" fill="#f28482"/><text x="764" y="122" text-anchor="middle" font-family="Arial" font-size="10">COMM</text>
+<text x="615" y="166" text-anchor="middle" font-family="Arial" font-size="13">Waiting gives time to another task</text>
+<text x="205" y="230" text-anchor="middle" font-family="Arial" font-size="13">Fixed order</text>
+<text x="615" y="230" text-anchor="middle" font-family="Arial" font-size="13">Scheduler selects Ready tasks</text>
+</svg>

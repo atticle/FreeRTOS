@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330">
+<rect width="760" height="330" fill="white"/>
+<text x="380" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">TASK STATES</text>
+<rect x="300" y="55" width="160" height="48" rx="8" fill="#90be6d" stroke="#333"/><text x="380" y="85" text-anchor="middle" font-family="Arial" font-size="15">RUNNING</text>
+<rect x="65" y="180" width="160" height="48" rx="8" fill="#8ecae6" stroke="#333"/><text x="145" y="210" text-anchor="middle" font-family="Arial" font-size="15">READY</text>
+<rect x="535" y="180" width="160" height="48" rx="8" fill="#ffb703" stroke="#333"/><text x="615" y="210" text-anchor="middle" font-family="Arial" font-size="15">BLOCKED</text>
+<rect x="300" y="270" width="160" height="40" rx="8" fill="#f28482" stroke="#333"/><text x="380" y="295" text-anchor="middle" font-family="Arial" font-size="14">SUSPENDED</text>
+<path d="M300 90 L225 180" fill="none" stroke="#333" stroke-width="2" marker-end="url(#a)"/><path d="M460 90 L535 180" fill="none" stroke="#333" stroke-width="2" marker-end="url(#a)"/><path d="M225 200 L300 90" fill="none" stroke="#333" stroke-width="2" marker-end="url(#a)"/><path d="M535 200 L460 90" fill="none" stroke="#333" stroke-width="2" marker-end="url(#a)"/><path d="M380 103 L380 270" fill="none" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="250" y="135" font-family="Arial" font-size="12">preempt</text><text x="490" y="135" font-family="Arial" font-size="12">wait</text><text x="235" y="250" font-family="Arial" font-size="12">event arrives</text><text x="490" y="250" font-family="Arial" font-size="12">timeout or give</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+</svg>

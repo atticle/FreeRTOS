@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310">
+<rect width="900" height="310" fill="white"/>
+<text x="450" y="25" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">ECU PROJECT FLOW</text>
+<rect x="35" y="105" width="125" height="58" fill="#8ecae6" stroke="#333"/><text x="97" y="130" text-anchor="middle" font-family="Arial" font-size="13">INPUT</text><text x="97" y="150" text-anchor="middle" font-family="Arial" font-size="11">GPIO ADC ISR</text>
+<rect x="205" y="105" width="125" height="58" fill="#ffb703" stroke="#333"/><text x="267" y="130" text-anchor="middle" font-family="Arial" font-size="13">QUEUE</text><text x="267" y="150" text-anchor="middle" font-family="Arial" font-size="11">messages</text>
+<rect x="375" y="105" width="150" height="58" fill="#90be6d" stroke="#333"/><text x="450" y="130" text-anchor="middle" font-family="Arial" font-size="13">CONTROL</text><text x="450" y="150" text-anchor="middle" font-family="Arial" font-size="11">state machine</text>
+<rect x="570" y="105" width="125" height="58" fill="#f6bd60" stroke="#333"/><text x="632" y="130" text-anchor="middle" font-family="Arial" font-size="13">OUTPUT</text><text x="632" y="150" text-anchor="middle" font-family="Arial" font-size="11">LED PWM</text>
+<rect x="740" y="105" width="125" height="58" fill="#f28482" stroke="#333"/><text x="802" y="130" text-anchor="middle" font-family="Arial" font-size="13">STATUS</text><text x="802" y="150" text-anchor="middle" font-family="Arial" font-size="11">UART CAN</text>
+<path d="M160 134 L205 134" stroke="#333" stroke-width="2" marker-end="url(#a)"/><path d="M330 134 L375 134" stroke="#333" stroke-width="2" marker-end="url(#a)"/><path d="M525 134 L570 134" stroke="#333" stroke-width="2" marker-end="url(#a)"/><path d="M695 134 L740 134" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="260" y="220" width="380" height="45" rx="8" fill="white" stroke="#555"/><text x="450" y="248" text-anchor="middle" font-family="Arial" font-size="13">DIAGNOSTIC: timing stack heap queue</text>
+<path d="M450 163 L450 220" stroke="#555" stroke-width="2" stroke-dasharray="5 4"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+</svg>

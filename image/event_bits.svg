@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="280" viewBox="0 0 760 280">
+<rect width="760" height="280" fill="white"/>
+<text x="380" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">EVENT BITS</text>
+<rect x="80" y="75" width="150" height="55" fill="#8ecae6" stroke="#333"/><text x="155" y="98" text-anchor="middle" font-family="Arial" font-size="14">ADC READY</text><text x="155" y="118" text-anchor="middle" font-family="Arial" font-size="12">BIT 0</text>
+<rect x="305" y="75" width="150" height="55" fill="#ffb703" stroke="#333"/><text x="380" y="98" text-anchor="middle" font-family="Arial" font-size="14">UART READY</text><text x="380" y="118" text-anchor="middle" font-family="Arial" font-size="12">BIT 1</text>
+<rect x="530" y="75" width="150" height="55" fill="#90be6d" stroke="#333"/><text x="605" y="98" text-anchor="middle" font-family="Arial" font-size="14">SENSOR READY</text><text x="605" y="118" text-anchor="middle" font-family="Arial" font-size="12">BIT 2</text>
+<path d="M155 130 L155 170 L380 170" fill="none" stroke="#333" stroke-width="2"/><path d="M380 130 L380 170" fill="none" stroke="#333" stroke-width="2"/><path d="M605 130 L605 170 L380 170" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280" y="185" width="200" height="50" rx="8" fill="#f28482" stroke="#333"/><text x="380" y="216" text-anchor="middle" font-family="Arial" font-size="14">WAIT ALL</text>
+</svg>
